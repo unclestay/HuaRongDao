@@ -1,1 +1,19 @@
+HuaRongDao Game
 
+There are 8 numbers from 1 to 8. Put them in a square of 3×3, and there is a blank. 
+The blank can exchange with the numbers. It can be seen like the blank is moving.
+3 4 1 
+5 6  
+8 2 7
+ 
+If it becomes orderly from 1 to 8 like below, the game successes. 
+1 2 3
+4 5 6
+7 8 
+ 
+1.We need a data structure to describe the process.
+2.There is an initial state, we should know if the game can success or not, and how to move.
+ 
+ 
+The blank has four choices: up, down, right or left. And we give it a order: up→right→down→left.
+The blank go to a new state, and if it will go to the same road that we have gone before, we return from the original road.
