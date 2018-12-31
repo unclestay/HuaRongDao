@@ -109,7 +109,7 @@ public class DeepFirstSearch {
         for(int i = 0; i < bestPath.length; i++) {
             if(bestPath[i] == RIGHT) {
                 System.out.print("right ");
-            } else {
+            } else { 
                 System.out.print("down ");
             }
         }

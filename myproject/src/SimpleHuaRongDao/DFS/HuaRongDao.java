@@ -63,7 +63,7 @@ public class HuaRongDao {
     private void move(int direction) {
         int temp;
         switch (direction) {
-            // 空格和左侧数字交换
+            // exchange the left number and the space
             case LEFT:
                 temp = arr[x][y - 1];
                 arr[x][y - 1] = 0;
